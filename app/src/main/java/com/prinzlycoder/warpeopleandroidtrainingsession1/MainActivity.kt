@@ -11,6 +11,12 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         rollBtn.setOnClickListener { rollDice() }
         nextBtn.setOnClickListener { startSecondActivity() }
+        myFragmentBtn.setOnClickListener { startMyFragmentActivity() }
+    }
+
+    private fun startMyFragmentActivity() {
+        val intent = Intent(this, MyFragmentActivity::class.java)
+        startActivity(intent)
     }
 
     private fun rollDice() {

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/common_16dp"
+    android:background="@color/white">
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:inputType="text"
+        android:hint="@string/text_1"
+        android:paddingStart="@dimen/common_16dp"
+        android:paddingEnd="@dimen/common_16dp" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/common_16dp"
+        android:autofillHints=""
+        android:inputType="text"
+        android:hint="@string/text_2"
+        android:paddingStart="@dimen/common_16dp"
+        android:paddingEnd="@dimen/common_16dp" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/common_16dp"
+        android:autofillHints=""
+        android:inputType="text"
+        android:hint="@string/text_3"
+        android:paddingStart="@dimen/common_16dp"
+        android:paddingEnd="@dimen/common_16dp" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/common_16dp"
+        android:autofillHints=""
+        android:inputType="text"
+        android:hint="@string/text_4"
+        android:paddingStart="@dimen/common_16dp"
+        android:paddingEnd="@dimen/common_16dp" />
+
+    <Button
+        android:id="@+id/nextBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginTop="@dimen/common_16dp"
+        android:layout_marginBottom="80dp"
+        android:text="Next" />
+
+</LinearLayout>
